@@ -1,8 +1,8 @@
-﻿using BMO_Auth.Models;
+﻿using BankWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace BMO_Auth.Controllers
+namespace BankWeb.Controllers
 {
     public class HomeController : Controller
     {

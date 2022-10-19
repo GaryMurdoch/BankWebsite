@@ -22,7 +22,7 @@ namespace BankWeb.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("server=localhost;port=3306;user=root;database=bmo_auth",
+                optionsBuilder.UseMySql("server=localhost;port=3306;user=root;database=FirstProject",
                                         new MySqlServerVersion(new Version(10, 4, 24)));
             }
         }

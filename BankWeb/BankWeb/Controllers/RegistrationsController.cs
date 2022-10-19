@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using BMO_Auth.Data;
-using BMO_Auth.Models;
-using BMO_Auth.Models.Exceptions;
+using BankWeb.Data;
+using BankWeb.Models;
+using BankWeb.Models.Exceptions;
 using Newtonsoft.Json;
 
-namespace BMO_Auth.Controllers
+namespace BankWeb.Controllers
 {
     public class RegistrationsController : Controller
     {
